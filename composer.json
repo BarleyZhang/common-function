@@ -1,0 +1,21 @@
+{
+    "name": "barley/common",
+    "description": "common method",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BarleyZhang",
+            "email": "guizi0403@163.com"
+        }
+    ],
+    "autoload":{
+       "psr-4": {
+        "barley\\common\\": "src/common/lib"
+       } 
+    },
+    "minimum-stability": "stable"
+}
